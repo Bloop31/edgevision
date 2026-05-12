@@ -50,15 +50,15 @@ Real-Time Detection Output
 
 ## Tech Stack
 
-Languages
-    Python
-Libraries
+-Languages
+      Python
+-Libraries
     OpenCV
     Ultralytics YOLOv8
     NumPy
     MSS
     PyGetWindow
-Tools
+-Tools
     ADB
     scrcpy
     VS Code
