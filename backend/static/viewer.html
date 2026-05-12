@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head><title>AI stream viewer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Real-Time AI Stream</h1>
+    <img id="stream" />
+    <script>
+        const stream = document.getElementById("stream");
+
+        const socket = new WebSocket("ws://localhost:8000/ws");
+
+        socket.onmessage = function(event) {
+
+            stream.src = "data:image/jpeg;base64," + event.data;
+        };
+    </script>
+</body>
+</html>

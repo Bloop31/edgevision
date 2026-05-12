@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Camera Test</title>
+    <style>
+        body {
+            background: black;
+            color: white;
+            text-align: center;
+            font-family: Arial;
+        }
+
+        video {
+            width: 90%;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Phone Camera Test</h1>
+
+<video id="video" autoplay playsinline muted></video>
+
+<script>
+
+const video = document.getElementById("video");
+
+async function startCamera() {
+
+    try {
+
+        const stream = await navigator.mediaDevices.getUserMedia({
+            video: {
+                facingMode: "environment"
+            },
+            audio: false
+        });
+
+        video.srcObject = stream;
+
+        console.log("Camera started");
+
+    }
+
+    catch (err) {
+
+        console.error(err);
+
+        alert("Camera Error: " + err);
+
+    }
+}
+
+startCamera();
+
+</script>
+
+</body>
+</html>
