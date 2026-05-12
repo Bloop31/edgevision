@@ -118,3 +118,5 @@ Planned enhancements to expand the system's capabilities:
 - [ ] **Parallel Processing:** Moving to Threaded Inference and Asynchronous pipelines.
 - [ ] **Hardware Acceleration:** Implementing **CUDA** for NVIDIA GPUs.
 - [ ] **Model Compression:** Leveraging **TensorRT** for high-speed inference on edge devices.
+
+---
