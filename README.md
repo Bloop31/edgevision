@@ -73,3 +73,20 @@ Real-Time Detection Output
     Real-time monitoring
     AI-assisted analytics
     Object tracking systems
+
+---
+
+##  Android Setup
+
+To get the environment running, ensure your device is configured with the following steps:
+
+### 1. Enable Developer Options
+- [ ] Open **Settings** on your Android device.
+- [ ] Navigate to **About Phone**.
+- [ ] Locate the **Build Number** and tap it **7 times** until you see a message saying "You are now a developer!"
+
+### 2. Enable USB Debugging
+- [ ] Go back to the main **Settings** menu.
+- [ ] Navigate to **System** > **Developer Options** (or search for it in Settings).
+- [ ] Find **USB Debugging** and toggle the switch to **On**.
+- [ ] When prompted "Allow USB debugging?", tap **OK**.
