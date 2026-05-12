@@ -45,7 +45,7 @@ Python Frame Capture
 YOLOv8 Inference
       ↓
 Real-Time Detection Output
-
+```
 ---
 
 ## Tech Stack
