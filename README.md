@@ -50,18 +50,18 @@ Real-Time Detection Output
 
 ## Tech Stack
 
--Languages
-      Python
--Libraries
-    OpenCV
-    Ultralytics YOLOv8
-    NumPy
-    MSS
-    PyGetWindow
--Tools
-    ADB
-    scrcpy
-    VS Code
+### Languages
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+### Libraries & Frameworks
+*   **Computer Vision:** `OpenCV`, `Ultralytics YOLOv8`
+*   **Data Analysis:** `NumPy`
+*   **Screen Management:** `MSS`, `PyGetWindow`
+
+###  Tools & Software
+![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![ADB](https://img.shields.io/badge/Android%20Debug%20Bridge-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+*   **Mirroring:** `scrcpy`
 
 ---
 
