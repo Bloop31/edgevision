@@ -90,3 +90,31 @@ To get the environment running, ensure your device is configured with the follow
 - [ ] Navigate to **System** > **Developer Options** (or search for it in Settings).
 - [ ] Find **USB Debugging** and toggle the switch to **On**.
 - [ ] When prompted "Allow USB debugging?", tap **OK**.
+
+---
+
+## Future Improvements
+
+Planned enhancements to expand the system's capabilities:
+
+| Category | Features |
+| :--- | :--- |
+| **Backend & UI** | FastAPI Integration • Browser Dashboard • WebSocket Streaming • MongoDB Storage |
+| **Advanced Vision** | Multi-Object Tracking • OCR Integration • Face & Activity Recognition |
+| **Optimization** | GPU Acceleration • Edge TPU (Coral) Support • Video Recording |
+| **System Logic** | Real-time Alert Systems • Advanced Detection Analytics |
+
+---
+
+## Performance & Optimizations
+
+### Current Optimizations
+- [x] **Dynamic Window Tracking:** Only captures the targeted application window.
+- [x] **Region-Based Capture:** Focuses on specific ROIs to reduce processing load.
+- [x] **Inference:** Currently utilizing the lightweight `YOLOv8n` (Nano) model.
+- [x] **Monitoring:** Real-time FPS overlay for performance benchmarking.
+
+### Planned Optimizations
+- [ ] **Parallel Processing:** Moving to Threaded Inference and Asynchronous pipelines.
+- [ ] **Hardware Acceleration:** Implementing **CUDA** for NVIDIA GPUs.
+- [ ] **Model Compression:** Leveraging **TensorRT** for high-speed inference on edge devices.
