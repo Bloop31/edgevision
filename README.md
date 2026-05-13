@@ -120,3 +120,9 @@ Planned enhancements to expand the system's capabilities:
 - [ ] **Model Compression:** Leveraging **TensorRT** for high-speed inference on edge devices.
 
 ---
+
+## Technologies Used Links
+
+- [scrcpy](https://github.com/Genymobile/scrcpy) — Android device mirroring and control tool used for real-time phone screen streaming.
+- [YOLOv8](https://github.com/ultralytics/ultralytics) — State-of-the-art object detection model used for real-time AI inference.
+- [Ultralytics Documentation](https://docs.ultralytics.com) — Official documentation for YOLOv8 setup and deployment.
